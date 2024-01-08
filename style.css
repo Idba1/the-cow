@@ -8,6 +8,9 @@
     width: 100%;
     background-size: cover;
     background-position: bottom center;
+    /* clip-path: polygon(20% 0%, 100% 0, 100% 20%, 100% 91%, 64% 100%, 20% 100%, 1% 93%, 0 0); */
+
+
 }
 .banner-heading{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -26,6 +29,7 @@
     padding: 30px;
     text-align: justify;
     background: rgb(186, 235, 235);
+    margin-top: 200px;
 }
 
 .essay-tittle{
@@ -43,10 +47,13 @@
     padding: 30px;
 }
 
-
+.types-of-cow{
+    background: linear-gradient(45deg, rgb(205, 230, 248) ,rgb(150, 206, 246)  );   
+}
 .type-of-heading{
     margin-top: 100px;
     margin-bottom: 100px;
+    padding: 50px;
 }
 .type-of-images{
     width: 80%;
@@ -60,4 +67,5 @@
     height: 300px;
     width: 300px;
     border-radius: 10px;
+    margin-bottom: 100px;
 }
